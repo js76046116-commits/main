@@ -1,0 +1,15 @@
+# 1. 가상환경 내부 설치 파일들 무시 (이게 9900개입니다)
+Lib/
+Scripts/
+Include/
+pyvenv.cfg
+share/
+etc/
+
+# 2. 파이썬 임시 파일 무시
+__pycache__/
+*.pyc
+.env
+
+# 3. 데이터베이스 원본 폴더 무시 (이미 쪼갰으니까)
+chroma_db_storage/
