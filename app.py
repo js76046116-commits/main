@@ -42,7 +42,7 @@ RAW_DATA = []
 # ==========================================================
 class SimpleHybridRetriever:
     def __init__(self, bm25, chroma1, chroma2, raw_data):
-        self.bm25 = bm25
+        self.bm25 = bm25 
         self.chroma1 = chroma1
         self.chroma2 = chroma2
         self.raw_data = raw_data
